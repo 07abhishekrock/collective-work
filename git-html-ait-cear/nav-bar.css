@@ -1,0 +1,150 @@
+body{
+    background:#2ac4b8;
+    
+    }
+    div.nav-bar{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    opacity:1;
+    height:100%;
+    background-color:#2ac4b8;
+    
+    }
+    
+    div.company{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    a.company-text{
+    display:inline-block;
+    text-align:center;
+    position:relative;
+    background-color:black;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-bottom:5px;
+    padding-left:15px;
+    right:5%;
+    padding-top:8px;
+    color:#2ac4b8;
+    letter-spacing: 3px;
+    border:2px solid black;
+    border-radius:25px;
+    box-shadow:5px 5px 8px #252627;
+    font-family:"Fredoka One";
+    width:150px;
+    font-weight:bolder;
+    z-index:0;
+    text-decoration:none;
+    }
+
+    a.company-text:hover{
+       box-shadow:none; 
+    }
+    
+    img.company_icon{
+    position:fixed;
+    z-index:1;
+    max-width:50px;
+    max-height:50px;
+    border:2px solid #2ac4b8 ;
+    border-radius:100%;
+    position:relative;
+    opacity:1;
+    background:black;
+    box-shadow:5px 5px 8px #252627;
+    bottom:2.7px;
+    }
+    
+    
+    
+    div.nav-container{
+    display:inline-block;
+    color:white;
+    text-align:center;
+    overflow:auto;
+    white-space:nowrap;
+    border:2px solid #2ac4b8;
+    border-radius:15px;
+    }
+    
+    a.nav-link{
+    display:inline-block;
+    text-decoration:none;
+    background:black;
+    border:2px solid black;
+    color:#2ac4b8;
+    border-radius:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-bottom:5px;
+    padding-left:15px;
+    margin-right:1px;
+    margin-left:6px;
+    
+    font-weight:bolder;
+    font-family:"Fredoka One";
+    letter-spacing:2px;
+    box-shadow:5px 5px 8px #252627;
+    outline:none;
+    }
+    a.nav-link:hover{
+    box-shadow:none;
+    }
+    
+    
+    
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+    a.company-text{
+    right:5%;
+    width:200px;
+   }   
+   a.nav-link{
+       font-size:2.5vw;
+   }
+
+    
+    }
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+
+    
+   a.company-text{
+    right:4%;
+    width:200px;
+   } 
+       a.nav-link{
+       font-size:20px;
+   }
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+
+    
+    
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+    
+
+   a.company-text{
+    right:2%;
+    width:200px;
+   } 
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    
+    }

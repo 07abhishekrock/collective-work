@@ -1,0 +1,372 @@
+body{
+background-color:#2ac4b8;
+}
+
+
+
+a.nav-element-margin{
+    margin-top:1vw;
+    margin-bottom:1vw;
+}
+
+nav.bg-amoled{
+    background-color: black;
+    box-shadow: 5px 5px 8px #252626;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-bottom:0;
+    margin-top:1vw;
+    margin-right:3vw;
+    margin-left:0.5vw;
+    color:white;
+}
+
+nav.center-position{
+    position:relative;
+    left:1vw;
+}
+
+div.container-nav-below{
+
+    position:relative;
+    margin-top:2vw;
+    border:1px solid black;
+    height:100%;
+    background-color:black;
+    max-width:98vw;
+    margin-right:3vw;
+    margin-left:0.5vw;
+    z-index:-2;
+    margin-bottom:2vw;
+    left:1vw;
+
+
+}
+div.container-nav-below img{
+
+position:fixed;
+max-width:80%;
+max-height:80%;
+top:60%;
+left:50%;
+margin-right:-50%;
+transform:translate(-50%,-50%);
+z-index:-1;
+opacity:0.05;
+border: 3px solid #595856;
+border-radius:100%;
+}
+div.container-nav-below-border{
+    box-shadow: 5px 5px 8px #252626;
+    border-radius:6px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* ----------- */
+    /*this is for phones*/
+    /* ----------- */
+    /* ----------- */
+
+    ul.navbar-list{
+        display:block;
+        list-style-type:none;
+        margin-left:0vw;
+        padding-left:0vw;
+
+    }
+    /* list element formatting */
+    li.navbar-item{
+        position:relative;
+        display:block;
+        float:left;
+        margin-left:0vw;
+    }
+
+    a.nav-element, li.nav-element{
+        font-family:'Arial';
+        font-weight:bold;
+        letter-spacing: 1px;
+        font-size:15px;
+        background-color:#2ac4b8;
+        color:black; 
+        border:2px solid black; 
+        padding:1vw;
+        border-radius:5px;
+    }
+    /* list element formatting */
+
+
+
+    /*drop down element formatting*/
+    /*list header*/
+    li.drop-down-container{
+        display:block;
+        float:left;
+    }
+
+    /*list header*/    
+
+    a.nav-drop-element{
+        display:inline-block;
+        position:relative;
+    }
+    
+    a.nav-drop-header{
+        position:relative;
+        display:block;
+        float:left;
+    } 
+    a.navbar-item{
+        color:black;
+        text-decoration:none;
+        padding:1vw;
+    }
+    /*drop down element formatting*/
+
+    /*hover*/
+    a.nav-drop-item:hover{
+        color:black;
+        background-color:#34e1eb ;
+    }
+   
+    li.navbar-item:hover{
+        color:black;
+        background-color:#34e1eb ;
+    } 
+    /*hover*/
+
+
+    .clear-all-dd, .clear-all{
+    clear:both;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    ul.navbar-list{
+        display:block;
+        list-style-type:none;
+        margin-left:0vw;
+        padding-left:0vw;
+
+    }
+    /* list element formatting */
+    li.navbar-item{
+        position:relative;
+        display:block;
+        float:left;
+        margin-left:0vw;
+    }
+
+    a.nav-element, li.nav-element{
+        font-family:'Arial';
+        font-weight:bold;
+        letter-spacing: 1px;
+        font-size:15px;
+        background-color:#2ac4b8;
+        color:black; 
+        border:2px solid black; 
+        padding:1vw;
+        border-radius:5px;
+    }
+    /* list element formatting */
+
+
+
+    /*drop down element formatting*/
+    /*list header*/
+    li.drop-down-container{
+        display:block;
+        float:left;
+    }
+
+    /*list header*/    
+
+    a.nav-drop-element{
+        display:inline-block;
+        position:relative;
+    }
+    
+    a.nav-drop-header{
+        position:relative;
+        display:block;
+        float:left;
+    } 
+    a.navbar-item{
+        color:black;
+        text-decoration:none;
+        padding:1vw;
+    }
+    /*drop down element formatting*/
+
+    /*hover*/
+    a.nav-drop-item:hover{
+        color:black;
+        background-color:#34e1eb ;
+    }
+   
+    li.navbar-item:hover{
+               color:black;
+        background-color:#34e1eb ;
+    } 
+    /*hover*/
+
+
+    .clear-all-dd, .clear-all{
+    clear:both;
+    }
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    ul.navbar-list{
+        display:block;
+        list-style-type:none;
+        margin-left:0vw;
+        padding-left:0vw;
+
+    }
+    /* list element formatting */
+    li.navbar-item{
+        position:relative;
+        display:block;
+        float:left;
+        margin-left:0vw;
+        margin-right:1vw;
+        top:0.65vw;
+    }
+
+    a.nav-element, li.nav-element{
+        font-family:'Arial';
+        font-weight:bold;
+        letter-spacing: 1px;
+        font-size:15px;
+        background-color:#2ac4b8;
+        color:black; 
+        border:2px solid black; 
+        padding:0.6vw;
+        border-radius:5px;
+    }
+    /* list element formatting */
+
+
+
+    
+    a.navbar-item{
+        color:black;
+        text-decoration:none;
+        padding:1vw;
+    }
+    /*drop down element formatting*/
+
+    /*hover*/
+    a.nav-drop-item:hover{
+        color:black;
+        background-color:#34e1eb ;
+    }
+   
+    li.navbar-item:hover{
+               color:black;
+        background-color:#34e1eb ;
+    } 
+    /*hover*/
+
+
+    .clear-all{
+    clear:none;
+    }
+ 
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /*this is for laptop screens*/
+
+    ul.navbar-list{
+        display:block;
+        list-style-type:none;
+        margin-left:0vw;
+        padding-left:0vw;
+
+    }
+    /* list element formatting */
+    li.navbar-item{
+        position:relative;
+        display:block;
+        float:left;
+        margin-left:0vw;
+        margin-right:1vw;
+        top:0.4vw;
+    }
+
+    a.nav-element, li.nav-element{
+        font-family:'Arial';
+        font-weight:bold;
+        letter-spacing: 1px;
+        font-size:15px;
+        background-color:#2ac4b8;
+        color:black; 
+        border:2px solid black; 
+        padding-top:0.4vw;
+        padding-bottom:0.4vw;
+        padding-left:1vw;
+        padding-right:1vw;
+        border-radius:5px;
+    }
+    /* list element formatting */
+
+
+
+    
+    a.navbar-item{
+        color:black;
+        text-decoration:none;
+        padding:0vw;
+    }
+    /*drop down element formatting*/
+
+    /*hover*/
+    a.nav-drop-item:hover{
+        color:black;
+        background-color:#34e1eb ;
+    }
+   
+    li.navbar-item:hover{
+               color:black;
+        background-color:#34e1eb ;
+    } 
+    /*hover*/
+
+
+    .clear-all{
+    clear:none;
+    }
+ 
+
+
+
+
+
+
+
+
+}
